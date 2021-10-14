@@ -11,5 +11,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://rowanconnaughton.github.io/Frontend-Mentor-Profile-card-component-solution/)
+- Solution URL: [solution URL here](https://rowanconnaughton.github.io/Frontend-Mentor-Profile-card-component-solution/)
 
