@@ -49,7 +49,7 @@ body {
   border: 5px solid white;
   margin-bottom: 20px;
 }
-.card__name {
+.card__name h1 {
   font-size: 18px;
   text-align: center;
   color: #2d3248;
@@ -68,16 +68,18 @@ body {
   padding: 20px;
   border-top: 1px solid #969696;
   border-radius: 0px 0px 10px 10px;
+  list-style: none;
   background: white;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.card__stats h1 {
+.card__stats p:first-child {
+  color: #2d3248;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 2px;
 }
-.card__stats p {
+.card__stats p:last-child {
   font-size: 0.8rem;
   font-weight: 400;
   letter-spacing: 1px;

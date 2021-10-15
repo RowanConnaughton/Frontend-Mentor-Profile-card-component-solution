@@ -58,7 +58,7 @@ body {
     margin-bottom: 20px;
   }
 
-  &__name {
+  &__name h1 {
     font-size: 18px;
     text-align: center;
     color: $veryDarkDesaturatedBlue;
@@ -80,18 +80,20 @@ body {
     padding: 20px;
     border-top: 1px solid $darkGray;
     border-radius: 0px 0px 10px 10px;
+    list-style: none;
     background: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
-  &__stats h1 {
+  &__stats p:first-child {
+    color: $veryDarkDesaturatedBlue;
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 2px;
   }
 
-  &__stats p {
+  &__stats p:last-child {
     font-size: 0.8rem;
     font-weight: 400;
     letter-spacing: 1px;
